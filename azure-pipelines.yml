@@ -11,9 +11,11 @@ jobs:
           python.version: '3.7'
           TOXENV: py37
     steps:
-      - script: python -m pip install --upgrade pip
+      - script: pip install --upgrade pip
         displayName: Upgrade pip
       - script: pip install c7n
+        displayName: Install custodian
+
   - job: 'Validate'
     pool:
       vmImage: 'Ubuntu-16.04'
