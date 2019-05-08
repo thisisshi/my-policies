@@ -1,0 +1,19 @@
+trigger:
+- master
+
+jobs: 
+  - job: 'Validate'
+    pool:
+      vmImage: 'Ubuntu-16.04'
+    strategy:
+      matrix:
+        Python37:
+          python.version: '3.7'
+          TOXENV: py37
+      maxParallel: 32
+    steps:
+      - checkout: self
+      - script: pip install c7n
+        displayName: Install Cloud Custodian
+      - script: custodian validate policy.yml
+        displayName: Validate policy file
