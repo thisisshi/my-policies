@@ -5,11 +5,8 @@ jobs:
   - job: 'Validate'
     pool:
       vmImage: 'Ubuntu-16.04'
-    strategy:
-      matrix:
-        Python37:
-          python.version: '3.7'
-          TOXENV: py37
+      Python37:
+        python.version: '3.7'
     steps:
       - checkout: self
       - task: UsePythonVersion@0
