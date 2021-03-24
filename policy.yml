@@ -1,3 +1,5 @@
 policies:
   - name: aws-vpcs
     resource: aws.vpc
+  - name: s3
+    resoruce: aws.s3
