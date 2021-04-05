@@ -7,5 +7,5 @@ collections:
       - us-east-1
     policies:
       - foo
-      - test
+      - s3-test
       - aws-vpcs
