@@ -1,0 +1,11 @@
+collections:
+  - name: "demo-time"
+    schedule: "rate(10 minutes)"
+    accounts:
+      - 532725030595
+    regions:
+      - us-east-1
+    policies:
+      - foo
+      - test
+      - aws-vpcs
