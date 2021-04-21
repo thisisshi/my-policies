@@ -9,3 +9,5 @@ collections:
       - s3-test
       - foo
       - aws-vpcs
+      - my-policy
+      - my-second-policy

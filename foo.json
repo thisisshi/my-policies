@@ -1,0 +1,12 @@
+{
+  "policies": [
+    {
+       "name": "my-policy",
+       "resource": "aws.s3"
+    },
+    {
+      "name": "my-second-policy",
+      "resource": "aws.vpc"
+    }
+  ]
+}
