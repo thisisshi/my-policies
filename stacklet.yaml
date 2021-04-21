@@ -7,3 +7,12 @@ collections:
       - us-east-1
     policies:
       - s3-test
+  - name: "test-west"
+    schedule: "rate(10 minutes)"
+    accounts:
+      - 162211783590
+    regions:
+      - us-west-2
+    policies:
+      - foo
+      - aws-vpcs
