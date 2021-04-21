@@ -16,3 +16,12 @@ collections:
     policies:
       - foo
       - aws-vpcs
+  - name: "test-ohio"
+    schedule: "rate(10 minutes)"
+    accounts:
+      - 162211783590
+    regions:
+      - us-east-2
+    policies:
+      - foo
+      - aws-vpcs
