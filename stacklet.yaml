@@ -2,7 +2,7 @@ collections:
   - name: "demo-time"
     schedule: "rate(10 minutes)"
     accounts:
-      - 532725030595
+      - 162211783590
     regions:
       - us-east-1
     policies:
