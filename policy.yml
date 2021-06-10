@@ -1,12 +1,9 @@
 policies:
-  - name: aws-vpcs
-    resource: aws.vpc
-    description: this is a test
-
-  - name: s3-test
-    resource: aws.s3
-    description: this is a test2
-
-  - name: foo
-    resource: aws.security-group
-    description: this is a test3
+  - name: demo-skipped
+    resource: ec2
+    mode:
+      type: cloudtrail
+      events:
+       - RunInstances
+    actions:
+      - type: terminate
