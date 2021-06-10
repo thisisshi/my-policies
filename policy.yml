@@ -1,5 +1,5 @@
 policies:
-  - name: demo-skipped
+  - name: terminate-on-create
     resource: ec2
     mode:
       type: cloudtrail
