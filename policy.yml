@@ -7,3 +7,7 @@ policies:
        - RunInstances
     actions:
       - type: terminate
+  - name: terminate-pull
+    resource: ec2
+    actions:
+      - type: terminate
