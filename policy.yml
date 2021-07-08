@@ -13,3 +13,12 @@ policies:
       type: pull
     actions:
       - type: terminate
+
+  - name: s3-test
+    resource: s3
+  - name: ec2-test
+    resoruce: ec2
+  - name: lambda-test
+    resource: lambda
+  - name: logs-test
+    resource: log-group
