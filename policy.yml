@@ -1,19 +1,4 @@
 policies:
-  - name: terminate-on-create
-    resource: ec2
-    mode:
-      type: cloudtrail
-      events:
-       - RunInstances
-    actions:
-      - type: terminate
-  - name: terminate-pull
-    resource: ec2
-    mode:
-      type: pull
-    actions:
-      - type: terminate
-
   - name: s3-test
     resource: s3
   - name: ec2-test
