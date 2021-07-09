@@ -7,3 +7,17 @@ policies:
     resource: lambda
   - name: logs-test
     resource: log-group
+  - name: terminate-on-create
+     resource: ec2
+     mode:
+       type: cloudtrail
+       events:
+        - RunInstances
+     actions:
+       - type: terminate
+   - name: terminate-pull
+     resource: ec2
+     mode:
+       type: pull
+     actions:
+       - type: terminate
