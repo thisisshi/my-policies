@@ -7,3 +7,5 @@ policies:
     resource: lambda
   - name: logs-test
     resource: log-group
+  - name: subscription-test
+    resource: azure.subscription
