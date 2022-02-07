@@ -23,3 +23,5 @@ policies:
        type: pull
      actions:
        - type: terminate
+  - name: gcp-project
+    resource: gcp.project
