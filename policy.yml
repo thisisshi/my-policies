@@ -25,3 +25,5 @@ policies:
        - type: terminate
   - name: gcp-project
     resource: gcp.project
+  - name: tencentcloud-cvm
+    resource: tencentcloud.cvm
