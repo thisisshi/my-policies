@@ -10,19 +10,19 @@ policies:
   - name: subscription-test
     resource: azure.subscription
   - name: terminate-on-create
-     resource: ec2
-     mode:
-       type: cloudtrail
-       events:
-        - RunInstances
-     actions:
-       - type: terminate
-   - name: terminate-pull
-     resource: ec2
-     mode:
-       type: pull
-     actions:
-       - type: terminate
+    resource: ec2
+    mode:
+      type: cloudtrail
+      events:
+       - RunInstances
+    actions:
+      - type: terminate
+  - name: terminate-pull
+    resource: ec2
+    mode:
+      type: pull
+    actions:
+      - type: terminate
   - name: gcp-project
     resource: gcp.project
   - name: tc-cvm
