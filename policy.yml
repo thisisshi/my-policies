@@ -27,3 +27,9 @@ policies:
     resource: gcp.project
   - name: tc-cvm
     resource: tencentcloud.cvm
+  - name: run-instances
+    resource: ec2
+    mode:
+      type: cloudtrail
+      events:
+        - RunInstances
