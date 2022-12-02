@@ -56,6 +56,7 @@ policies:
 
   - name: test-asg-instance-state
     resource: asg
+    description: foo
     mode:
       type: asg-instance-state
       events:
