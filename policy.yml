@@ -55,7 +55,7 @@ policies:
         - terminated
 
   - name: test-asg-instance-state
-    resource: ec2
+    resource: asg
     mode:
       type: asg-instance-state
       events:
