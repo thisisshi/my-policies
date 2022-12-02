@@ -33,3 +33,27 @@ policies:
       type: cloudtrail
       events:
         - RunInstances
+  - name: test-phd
+    resource: ec2
+    mode:
+      type: phd
+
+  - name: test-ec2-instance-state
+    resource: ec2
+    mode:
+      type: ec2-instance-state
+      events:
+        - pending
+        - running
+        - shutting-down
+        - stopped
+        - terminated
+
+    resource: ec2
+    mode:
+      type: asg-instance-state
+      events:
+        - launch-success
+        - launch-failure
+        - terminate-success
+        - terminate-failure
