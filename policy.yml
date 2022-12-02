@@ -37,6 +37,10 @@ policies:
     resource: ec2
     mode:
       type: phd
+      events:
+        - issue
+        - accountNotification
+        - scheduledChange
 
   - name: test-ec2-instance-state
     resource: ec2
