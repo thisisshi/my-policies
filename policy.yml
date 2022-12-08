@@ -64,3 +64,12 @@ policies:
         - launch-failure
         - terminate-success
         - terminate-failure
+
+  - name: test-phd-ebs
+    resource: ebs
+    mode:
+      type: phd
+      events:
+        - issue
+        - accountNotification
+        - scheduledChange
