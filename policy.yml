@@ -73,3 +73,28 @@ policies:
         - issue
         - accountNotification
         - scheduledChange
+
+  - name: tc-cos
+    resource: tencentcloud.cos
+  - name: tc-cbs-snapshot
+    resource: tencentcloud.cbs-snapshot
+  - name: tc-tcr
+    resource: tencentcloud.tcr
+  - name: tc-cam-user
+    resource: tencentcloud.cam-user
+  - name: tc-cam-policy
+    resource: tencentcloud.cam-policy
+  - name: tc-vpc
+    resource: tencentcloud.vpc
+  - name: tc-mysql
+    resource: tencentcloud.mysql
+  - name: tc-mysql-backup
+    resource: tencentcloud.mysql-backup
+  - name: tc-ami
+    resource: tencentcloud.ami
+  - name: tc-elasticsearch
+    resource: tencentcloud.elasticsearch
+  - name: tc-security-group
+    resource: tencentcloud.security-group
+  - name: tc-nat-gateway
+    resource: tencentcloud.nat-gateway
