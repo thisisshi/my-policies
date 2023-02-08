@@ -98,3 +98,5 @@ policies:
     resource: tencentcloud.security-group
   - name: tc-nat-gateway
     resource: tencentcloud.nat-gateway
+  - name: tc-clb
+    resource: tencentcloud.clb
