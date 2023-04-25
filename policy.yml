@@ -9,7 +9,7 @@ policies:
           source: signin.amazonaws.com
   - name: s3-test
     resource: s3
-  - name: ec2-test
+  - name: ec2-test-2
     resource: ec2
   - name: lambda-test
     resource: lambda
