@@ -1,8 +1,16 @@
 policies:
+  - name: console-signin
+    resource: aws.account
+    mode:
+      type: cloudtrail
+      events:
+        - event: ConsoleLogin
+          ids: userIdentity.arn
+          source: signin.amazonaws.com
   - name: s3-test
     resource: s3
   - name: ec2-test
-    resoruce: ec2
+    resource: ec2
   - name: lambda-test
     resource: lambda
   - name: logs-test
@@ -64,15 +72,6 @@ policies:
         - launch-failure
         - terminate-success
         - terminate-failure
-
-  - name: test-phd-ebs
-    resource: ebs-snapshot
-    mode:
-      type: phd
-      events:
-        - issue
-        - accountNotification
-        - scheduledChange
 
   - name: tc-cos
     resource: tencentcloud.cos
