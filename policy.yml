@@ -99,3 +99,12 @@ policies:
     resource: tencentcloud.nat-gateway
   - name: tc-clb
     resource: tencentcloud.clb
+  - name: eventgrid-test
+    resource: azure.vm
+    mode:
+      type: azure-event-grid
+      events:
+        - resourceProvider: Microsoft.Compute/virtualMachines
+          event: delete
+        - resourceProvider: Microsoft.Compute/virtualMachines
+          event: powerOff/action
