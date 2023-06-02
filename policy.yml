@@ -99,7 +99,7 @@ policies:
     resource: tencentcloud.nat-gateway
   - name: tc-clb
     resource: tencentcloud.clb
-  - name: eventgrid-test-2
+  - name: eventgrid-test-3
     resource: azure.vm
     mode:
       type: azure-event-grid
