@@ -108,3 +108,5 @@ policies:
           event: delete
         - resourceProvider: Microsoft.Compute/virtualMachines
           event: powerOff/action
+        - resourceProvider: Microsoft.Compute/virtualMachines
+          event: action
