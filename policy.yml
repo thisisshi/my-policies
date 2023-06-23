@@ -110,3 +110,7 @@ policies:
           event: powerOff/action
         - resourceProvider: Microsoft.Compute/virtualMachines
           event: action
+        - resourceProvider: Microsoft.Compute/virtualMachines
+          event: start/action
+        - resourceProvider: Microsoft.Compute/virtualMachines
+          event: stop/action
