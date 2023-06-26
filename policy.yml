@@ -113,4 +113,6 @@ policies:
         - resourceProvider: Microsoft.Compute/virtualMachines
           event: start/action
         - resourceProvider: Microsoft.Compute/virtualMachines
+          event: deallocate/action
+        - resourceProvider: Microsoft.Compute/virtualMachines
           event: stop/action
