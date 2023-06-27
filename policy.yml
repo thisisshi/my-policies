@@ -105,14 +105,6 @@ policies:
       type: azure-event-grid
       events:
         - resourceProvider: Microsoft.Compute/virtualMachines
-          event: delete
-        - resourceProvider: Microsoft.Compute/virtualMachines
-          event: powerOff/action
-        - resourceProvider: Microsoft.Compute/virtualMachines
-          event: action
-        - resourceProvider: Microsoft.Compute/virtualMachines
           event: start/action
         - resourceProvider: Microsoft.Compute/virtualMachines
           event: deallocate/action
-        - resourceProvider: Microsoft.Compute/virtualMachines
-          event: stop/action
