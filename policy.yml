@@ -13,6 +13,16 @@ policies:
     resource: ec2
   - name: lambda-test
     resource: lambda
+    actions:
+      - type: tag
+        tags:
+          foo: bar
+  - name: lambda-test-tag-2
+    resource: lambda
+    actions:
+      - type: tag
+        tags:
+          bar: baz
   - name: logs-test
     resource: log-group
   - name: subscription-test
