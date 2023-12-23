@@ -10,6 +10,9 @@ policies:
         - event: ConsoleLogin
           ids: userIdentity.arn
           source: signin.amazonaws-us-gov.com
+        - event: ConsoleLogin
+          ids: userIdentity.arn
+          source: aws.signin
   - name: s3-test
     resource: s3
   - name: ec2-test-2
@@ -36,6 +39,9 @@ policies:
       type: cloudtrail
       events:
        - RunInstances
+       - event: RunInstances
+         source: aws.ec2
+         ids: responseElements.instancesSet.items[].instanceId
     actions:
       - type: terminate
   - name: terminate-pull
@@ -54,6 +60,9 @@ policies:
       type: cloudtrail
       events:
         - RunInstances
+        - event: RunInstances
+          source: aws.ec2
+          ids: responseElements.instancesSet.items[].instanceId
 
   - name: test-phd
     resource: ec2
