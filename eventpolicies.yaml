@@ -1,0 +1,6409 @@
+policies:
+- mode:
+    events:
+    - event: AddPermission
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-50
+  resource: aws.sns
+- mode:
+    events:
+    - event: CanPaginate
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-51
+  resource: aws.sns
+- mode:
+    events:
+    - event: CheckIfPhoneNumberIsOptedOut
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-52
+  resource: aws.sns
+- mode:
+    events:
+    - event: ConfirmSubscription
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-54
+  resource: aws.sns
+- mode:
+    events:
+    - event: CreatePlatformApplication
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-55
+  resource: aws.sns
+- mode:
+    events:
+    - event: CreatePlatformEndpoint
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-56
+  resource: aws.sns
+- mode:
+    events:
+    - event: CreateSmsSandboxPhoneNumber
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-57
+  resource: aws.sns
+- mode:
+    events:
+    - event: CreateTopic
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-58
+  resource: aws.sns
+- mode:
+    events:
+    - event: DeleteEndpoint
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-59
+  resource: aws.sns
+- mode:
+    events:
+    - event: DeletePlatformApplication
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-60
+  resource: aws.sns
+- mode:
+    events:
+    - event: DeleteSmsSandboxPhoneNumber
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-61
+  resource: aws.sns
+- mode:
+    events:
+    - event: DeleteTopic
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-62
+  resource: aws.sns
+- mode:
+    events:
+    - event: GeneratePresignedUrl
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-64
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetDataProtectionPolicy
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-65
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetEndpointAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-66
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetPaginator
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-67
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetPlatformApplicationAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-68
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetSmsAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-69
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetSmsSandboxAccountStatus
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-70
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetSubscriptionAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-71
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetTopicAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-72
+  resource: aws.sns
+- mode:
+    events:
+    - event: GetWaiter
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-73
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListEndpointsByPlatformApplication
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-74
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListOriginationNumbers
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-75
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListPhoneNumbersOptedOut
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-76
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListPlatformApplications
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-77
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListSmsSandboxPhoneNumbers
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-78
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListSubscriptions
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-79
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListSubscriptionsByTopic
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-80
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListTagsForResource
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-81
+  resource: aws.sns
+- mode:
+    events:
+    - event: ListTopics
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-82
+  resource: aws.sns
+- mode:
+    events:
+    - event: OptInPhoneNumber
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-84
+  resource: aws.sns
+- mode:
+    events:
+    - event: PublishBatch
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-86
+  resource: aws.sns
+- mode:
+    events:
+    - event: PutDataProtectionPolicy
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-87
+  resource: aws.sns
+- mode:
+    events:
+    - event: RemovePermission
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-88
+  resource: aws.sns
+- mode:
+    events:
+    - event: SetEndpointAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-89
+  resource: aws.sns
+- mode:
+    events:
+    - event: SetPlatformApplicationAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-90
+  resource: aws.sns
+- mode:
+    events:
+    - event: SetSmsAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-91
+  resource: aws.sns
+- mode:
+    events:
+    - event: SetSubscriptionAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-92
+  resource: aws.sns
+- mode:
+    events:
+    - event: SetTopicAttributes
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-93
+  resource: aws.sns
+- mode:
+    events:
+    - event: TagResource
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-95
+  resource: aws.sns
+- mode:
+    events:
+    - event: UntagResource
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-97
+  resource: aws.sns
+- mode:
+    events:
+    - event: VerifySmsSandboxPhoneNumber
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-98
+  resource: aws.sns
+- mode:
+    events:
+    - event: WaiterNames
+      ids: foo
+      source: sns.amazonaws.com
+    type: cloudtrail
+  name: sns-test-policy-99
+  resource: aws.sns
+- mode:
+    events:
+    - event: AddPermission
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-50
+  resource: aws.sqs
+- mode:
+    events:
+    - event: CanPaginate
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-51
+  resource: aws.sqs
+- mode:
+    events:
+    - event: CancelMessageMoveTask
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-52
+  resource: aws.sqs
+- mode:
+    events:
+    - event: ChangeMessageVisibility
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-53
+  resource: aws.sqs
+- mode:
+    events:
+    - event: ChangeMessageVisibilityBatch
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-54
+  resource: aws.sqs
+- mode:
+    events:
+    - event: CreateQueue
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-56
+  resource: aws.sqs
+- mode:
+    events:
+    - event: DeleteMessage
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-57
+  resource: aws.sqs
+- mode:
+    events:
+    - event: DeleteMessageBatch
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-58
+  resource: aws.sqs
+- mode:
+    events:
+    - event: DeleteQueue
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-59
+  resource: aws.sqs
+- mode:
+    events:
+    - event: GeneratePresignedUrl
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-61
+  resource: aws.sqs
+- mode:
+    events:
+    - event: GetPaginator
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-62
+  resource: aws.sqs
+- mode:
+    events:
+    - event: GetQueueAttributes
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-63
+  resource: aws.sqs
+- mode:
+    events:
+    - event: GetQueueUrl
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-64
+  resource: aws.sqs
+- mode:
+    events:
+    - event: GetWaiter
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-65
+  resource: aws.sqs
+- mode:
+    events:
+    - event: ListDeadLetterSourceQueues
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-66
+  resource: aws.sqs
+- mode:
+    events:
+    - event: ListMessageMoveTasks
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-67
+  resource: aws.sqs
+- mode:
+    events:
+    - event: ListQueueTags
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-68
+  resource: aws.sqs
+- mode:
+    events:
+    - event: ListQueues
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-69
+  resource: aws.sqs
+- mode:
+    events:
+    - event: PurgeQueue
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-71
+  resource: aws.sqs
+- mode:
+    events:
+    - event: ReceiveMessage
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-72
+  resource: aws.sqs
+- mode:
+    events:
+    - event: RemovePermission
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-73
+  resource: aws.sqs
+- mode:
+    events:
+    - event: SendMessage
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-74
+  resource: aws.sqs
+- mode:
+    events:
+    - event: SendMessageBatch
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-75
+  resource: aws.sqs
+- mode:
+    events:
+    - event: SetQueueAttributes
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-76
+  resource: aws.sqs
+- mode:
+    events:
+    - event: StartMessageMoveTask
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-77
+  resource: aws.sqs
+- mode:
+    events:
+    - event: TagQueue
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-78
+  resource: aws.sqs
+- mode:
+    events:
+    - event: UntagQueue
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-79
+  resource: aws.sqs
+- mode:
+    events:
+    - event: WaiterNames
+      ids: foo
+      source: sqs.amazonaws.com
+    type: cloudtrail
+  name: sqs-test-policy-80
+  resource: aws.sqs
+- mode:
+    events:
+    - event: AcceptAddressTransfer
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-50
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AcceptReservedInstancesExchangeQuote
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-51
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AcceptTransitGatewayMulticastDomainAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-52
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AcceptTransitGatewayPeeringAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-53
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AcceptTransitGatewayVpcAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-54
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AcceptVpcEndpointConnections
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-55
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AcceptVpcPeeringConnection
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-56
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AdvertiseByoipCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-57
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AllocateAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-58
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AllocateHosts
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-59
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AllocateIpamPoolCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-60
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ApplySecurityGroupsToClientVpnTargetNetwork
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-61
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssignIpv6Addresses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-62
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssignPrivateIpAddresses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-63
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssignPrivateNatGatewayAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-64
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-65
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateClientVpnTargetNetwork
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-66
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateDhcpOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-67
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateEnclaveCertificateIamRole
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-68
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateIamInstanceProfile
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-69
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateInstanceEventWindow
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-70
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateIpamByoasn
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-71
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateIpamResourceDiscovery
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-72
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateNatGatewayAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-73
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-74
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateSubnetCidrBlock
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-75
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateTransitGatewayMulticastDomain
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-76
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateTransitGatewayPolicyTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-77
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateTransitGatewayRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-78
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateTrunkInterface
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-79
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AssociateVpcCidrBlock
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-80
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AttachClassicLinkVpc
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-81
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AttachInternetGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-82
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AttachNetworkInterface
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-83
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AttachVerifiedAccessTrustProvider
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-84
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AttachVolume
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-85
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AttachVpnGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-86
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AuthorizeClientVpnIngress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-87
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AuthorizeSecurityGroupEgress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-88
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AuthorizeSecurityGroupIngress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-89
+  resource: aws.ec2
+- mode:
+    events:
+    - event: BundleInstance
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-90
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CanPaginate
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-91
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelBundleTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-92
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelCapacityReservation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-93
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelCapacityReservationFleets
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-94
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelConversionTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-95
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelExportTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-96
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelImageLaunchPermission
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-97
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelImportTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-98
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelReservedInstancesListing
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-99
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelSpotFleetRequests
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-100
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CancelSpotInstanceRequests
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-101
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ConfirmProductInstance
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-103
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CopyFpgaImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-104
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CopyImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-105
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CopySnapshot
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-106
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateCapacityReservation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-107
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateCapacityReservationFleet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-108
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateCarrierGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-109
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateClientVpnEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-110
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateClientVpnRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-111
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateCoipCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-112
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateCoipPool
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-113
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateCustomerGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-114
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateDefaultSubnet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-115
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateDefaultVpc
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-116
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateDhcpOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-117
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateEgressOnlyInternetGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-118
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateFleet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-119
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateFlowLogs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-120
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateFpgaImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-121
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-122
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateInstanceConnectEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-123
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateInstanceEventWindow
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-124
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateInstanceExportTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-125
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateInternetGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-126
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateIpam
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-127
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateIpamPool
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-128
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateIpamResourceDiscovery
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-129
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateIpamScope
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-130
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateKeyPair
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-131
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateLaunchTemplate
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-132
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateLaunchTemplateVersion
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-133
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateLocalGatewayRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-134
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateLocalGatewayRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-135
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-136
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateLocalGatewayRouteTableVpcAssociation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-137
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateManagedPrefixList
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-138
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateNatGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-139
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateNetworkAcl
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-140
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateNetworkAclEntry
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-141
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateNetworkInsightsAccessScope
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-142
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateNetworkInsightsPath
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-143
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateNetworkInterface
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-144
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateNetworkInterfacePermission
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-145
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreatePlacementGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-146
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreatePublicIpv4Pool
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-147
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateReplaceRootVolumeTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-148
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateReservedInstancesListing
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-149
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateRestoreImageTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-150
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-151
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-152
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateSecurityGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-153
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateSnapshot
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-154
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateSnapshots
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-155
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateSpotDatafeedSubscription
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-156
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateStoreImageTask
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-157
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateSubnet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-158
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateSubnetCidrReservation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-159
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTags
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-160
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTrafficMirrorFilter
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-161
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTrafficMirrorFilterRule
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-162
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTrafficMirrorSession
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-163
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTrafficMirrorTarget
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-164
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-165
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayConnect
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-166
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayConnectPeer
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-167
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayMulticastDomain
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-168
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayPeeringAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-169
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayPolicyTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-170
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayPrefixListReference
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-171
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-172
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-173
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayRouteTableAnnouncement
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-174
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateTransitGatewayVpcAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-175
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVerifiedAccessEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-176
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVerifiedAccessGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-177
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVerifiedAccessInstance
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-178
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVerifiedAccessTrustProvider
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-179
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVolume
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-180
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpc
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-181
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpcEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-182
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpcEndpointConnectionNotification
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-183
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpcEndpointServiceConfiguration
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-184
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpcPeeringConnection
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-185
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpnConnection
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-186
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpnConnectionRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-187
+  resource: aws.ec2
+- mode:
+    events:
+    - event: CreateVpnGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-188
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteCarrierGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-189
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteClientVpnEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-190
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteClientVpnRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-191
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteCoipCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-192
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteCoipPool
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-193
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteCustomerGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-194
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteDhcpOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-195
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteEgressOnlyInternetGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-196
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteFleets
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-197
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteFlowLogs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-198
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteFpgaImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-199
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteInstanceConnectEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-200
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteInstanceEventWindow
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-201
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteInternetGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-202
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteIpam
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-203
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteIpamPool
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-204
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteIpamResourceDiscovery
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-205
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteIpamScope
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-206
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteKeyPair
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-207
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteLaunchTemplate
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-208
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteLaunchTemplateVersions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-209
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteLocalGatewayRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-210
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteLocalGatewayRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-211
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteLocalGatewayRouteTableVirtualInterfaceGroupAssociation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-212
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteLocalGatewayRouteTableVpcAssociation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-213
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteManagedPrefixList
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-214
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNatGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-215
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkAcl
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-216
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkAclEntry
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-217
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkInsightsAccessScope
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-218
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkInsightsAccessScopeAnalysis
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-219
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkInsightsAnalysis
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-220
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkInsightsPath
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-221
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkInterface
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-222
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteNetworkInterfacePermission
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-223
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeletePlacementGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-224
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeletePublicIpv4Pool
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-225
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteQueuedReservedInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-226
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-227
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-228
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteSecurityGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-229
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteSnapshot
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-230
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteSpotDatafeedSubscription
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-231
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteSubnet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-232
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteSubnetCidrReservation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-233
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTags
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-234
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTrafficMirrorFilter
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-235
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTrafficMirrorFilterRule
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-236
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTrafficMirrorSession
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-237
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTrafficMirrorTarget
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-238
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-239
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayConnect
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-240
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayConnectPeer
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-241
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayMulticastDomain
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-242
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayPeeringAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-243
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayPolicyTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-244
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayPrefixListReference
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-245
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-246
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-247
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayRouteTableAnnouncement
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-248
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteTransitGatewayVpcAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-249
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVerifiedAccessEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-250
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVerifiedAccessGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-251
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVerifiedAccessInstance
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-252
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVerifiedAccessTrustProvider
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-253
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVolume
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-254
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpc
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-255
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpcEndpointConnectionNotifications
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-256
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpcEndpointServiceConfigurations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-257
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpcEndpoints
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-258
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpcPeeringConnection
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-259
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpnConnection
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-260
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpnConnectionRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-261
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeleteVpnGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-262
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeprovisionByoipCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-263
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeprovisionIpamByoasn
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-264
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeprovisionIpamPoolCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-265
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeprovisionPublicIpv4PoolCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-266
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeregisterImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-267
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeregisterInstanceEventNotificationAttributes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-268
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeregisterTransitGatewayMulticastGroupMembers
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-269
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DeregisterTransitGatewayMulticastGroupSources
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-270
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeAccountAttributes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-271
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeAddressTransfers
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-272
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeAddresses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-273
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeAddressesAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-274
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeAggregateIdFormat
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-275
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeAvailabilityZones
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-276
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeAwsNetworkPerformanceMetricSubscriptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-277
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeBundleTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-278
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeByoipCidrs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-279
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeCapacityBlockOfferings
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-280
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeCapacityReservationFleets
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-281
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeCapacityReservations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-282
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeCarrierGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-283
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeClassicLinkInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-284
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeClientVpnAuthorizationRules
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-285
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeClientVpnConnections
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-286
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeClientVpnEndpoints
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-287
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeClientVpnRoutes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-288
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeClientVpnTargetNetworks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-289
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeCoipPools
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-290
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeConversionTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-291
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeCustomerGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-292
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeDhcpOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-293
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeEgressOnlyInternetGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-294
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeElasticGpus
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-295
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeExportImageTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-296
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeExportTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-297
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFastLaunchImages
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-298
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFastSnapshotRestores
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-299
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFleetHistory
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-300
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFleetInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-301
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFleets
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-302
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFlowLogs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-303
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFpgaImageAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-304
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeFpgaImages
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-305
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeHostReservationOfferings
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-306
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeHostReservations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-307
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeHosts
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-308
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIamInstanceProfileAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-309
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIdFormat
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-310
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIdentityIdFormat
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-311
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeImageAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-312
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeImages
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-313
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeImportImageTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-314
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeImportSnapshotTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-315
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-316
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceConnectEndpoints
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-317
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceCreditSpecifications
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-318
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceEventNotificationAttributes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-319
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceEventWindows
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-320
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceStatus
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-321
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceTopology
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-322
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceTypeOfferings
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-323
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstanceTypes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-324
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-325
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeInternetGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-326
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIpamByoasn
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-327
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIpamPools
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-328
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIpamResourceDiscoveries
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-329
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIpamResourceDiscoveryAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-330
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIpamScopes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-331
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIpams
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-332
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeIpv6Pools
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-333
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeKeyPairs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-334
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLaunchTemplateVersions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-335
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLaunchTemplates
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-336
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-337
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLocalGatewayRouteTableVpcAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-338
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLocalGatewayRouteTables
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-339
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLocalGatewayVirtualInterfaceGroups
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-340
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLocalGatewayVirtualInterfaces
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-341
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLocalGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-342
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeLockedSnapshots
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-343
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeManagedPrefixLists
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-344
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeMovingAddresses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-345
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNatGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-346
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkAcls
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-347
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkInsightsAccessScopeAnalyses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-348
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkInsightsAccessScopes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-349
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkInsightsAnalyses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-350
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkInsightsPaths
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-351
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkInterfaceAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-352
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkInterfacePermissions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-353
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeNetworkInterfaces
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-354
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribePlacementGroups
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-355
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribePrefixLists
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-356
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribePrincipalIdFormat
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-357
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribePublicIpv4Pools
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-358
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeRegions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-359
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeReplaceRootVolumeTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-360
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeReservedInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-361
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeReservedInstancesListings
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-362
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeReservedInstancesModifications
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-363
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeReservedInstancesOfferings
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-364
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeRouteTables
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-365
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeScheduledInstanceAvailability
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-366
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeScheduledInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-367
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSecurityGroupReferences
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-368
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSecurityGroupRules
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-369
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSecurityGroups
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-370
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSnapshotAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-371
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSnapshotTierStatus
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-372
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSnapshots
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-373
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSpotDatafeedSubscription
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-374
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSpotFleetInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-375
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSpotFleetRequestHistory
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-376
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSpotFleetRequests
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-377
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSpotInstanceRequests
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-378
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSpotPriceHistory
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-379
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeStaleSecurityGroups
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-380
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeStoreImageTasks
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-381
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeSubnets
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-382
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTags
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-383
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTrafficMirrorFilters
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-384
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTrafficMirrorSessions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-385
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTrafficMirrorTargets
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-386
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayAttachments
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-387
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayConnectPeers
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-388
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayConnects
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-389
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayMulticastDomains
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-390
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayPeeringAttachments
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-391
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayPolicyTables
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-392
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayRouteTableAnnouncements
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-393
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayRouteTables
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-394
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGatewayVpcAttachments
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-395
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTransitGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-396
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeTrunkInterfaceAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-397
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVerifiedAccessEndpoints
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-398
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVerifiedAccessGroups
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-399
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVerifiedAccessInstanceLoggingConfigurations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-400
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVerifiedAccessInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-401
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVerifiedAccessTrustProviders
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-402
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVolumeAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-403
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVolumeStatus
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-404
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVolumes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-405
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVolumesModifications
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-406
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-407
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcClassicLink
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-408
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcClassicLinkDnsSupport
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-409
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcEndpointConnectionNotifications
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-410
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcEndpointConnections
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-411
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcEndpointServiceConfigurations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-412
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcEndpointServicePermissions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-413
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcEndpointServices
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-414
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcEndpoints
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-415
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcPeeringConnections
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-416
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpcs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-417
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpnConnections
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-418
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DescribeVpnGateways
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-419
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DetachClassicLinkVpc
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-420
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DetachInternetGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-421
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DetachNetworkInterface
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-422
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DetachVerifiedAccessTrustProvider
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-423
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DetachVolume
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-424
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DetachVpnGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-425
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableAddressTransfer
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-426
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableAwsNetworkPerformanceMetricSubscription
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-427
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableEbsEncryptionByDefault
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-428
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableFastLaunch
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-429
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableFastSnapshotRestores
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-430
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-431
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableImageBlockPublicAccess
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-432
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableImageDeprecation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-433
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableIpamOrganizationAdminAccount
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-434
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableSerialConsoleAccess
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-435
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableSnapshotBlockPublicAccess
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-436
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableTransitGatewayRouteTablePropagation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-437
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableVgwRoutePropagation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-438
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableVpcClassicLink
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-439
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisableVpcClassicLinkDnsSupport
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-440
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-441
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateClientVpnTargetNetwork
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-442
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateEnclaveCertificateIamRole
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-443
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateIamInstanceProfile
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-444
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateInstanceEventWindow
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-445
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateIpamByoasn
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-446
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateIpamResourceDiscovery
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-447
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateNatGatewayAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-448
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-449
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateSubnetCidrBlock
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-450
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateTransitGatewayMulticastDomain
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-451
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateTransitGatewayPolicyTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-452
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateTransitGatewayRouteTable
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-453
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateTrunkInterface
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-454
+  resource: aws.ec2
+- mode:
+    events:
+    - event: DisassociateVpcCidrBlock
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-455
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableAddressTransfer
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-456
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableAwsNetworkPerformanceMetricSubscription
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-457
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableEbsEncryptionByDefault
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-458
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableFastLaunch
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-459
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableFastSnapshotRestores
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-460
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-461
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableImageBlockPublicAccess
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-462
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableImageDeprecation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-463
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableIpamOrganizationAdminAccount
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-464
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableReachabilityAnalyzerOrganizationSharing
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-465
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableSerialConsoleAccess
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-466
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableSnapshotBlockPublicAccess
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-467
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableTransitGatewayRouteTablePropagation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-468
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableVgwRoutePropagation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-469
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableVolumeIo
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-470
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableVpcClassicLink
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-471
+  resource: aws.ec2
+- mode:
+    events:
+    - event: EnableVpcClassicLinkDnsSupport
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-472
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ExportClientVpnClientCertificateRevocationList
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-474
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ExportClientVpnClientConfiguration
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-475
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ExportImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-476
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ExportTransitGatewayRoutes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-477
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GeneratePresignedUrl
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-478
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetAssociatedEnclaveCertificateIamRoles
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-479
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetAssociatedIpv6PoolCidrs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-480
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetAwsNetworkPerformanceData
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-481
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetCapacityReservationUsage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-482
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetCoipPoolUsage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-483
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetConsoleOutput
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-484
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetConsoleScreenshot
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-485
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetDefaultCreditSpecification
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-486
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetEbsDefaultKmsKeyId
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-487
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetEbsEncryptionByDefault
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-488
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetFlowLogsIntegrationTemplate
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-489
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetGroupsForCapacityReservation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-490
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetHostReservationPurchasePreview
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-491
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetImageBlockPublicAccessState
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-492
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetInstanceTypesFromInstanceRequirements
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-493
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetInstanceUefiData
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-494
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetIpamAddressHistory
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-495
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetIpamDiscoveredAccounts
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-496
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetIpamDiscoveredPublicAddresses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-497
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetIpamDiscoveredResourceCidrs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-498
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetIpamPoolAllocations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-499
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetIpamPoolCidrs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-500
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetIpamResourceCidrs
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-501
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetLaunchTemplateData
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-502
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetManagedPrefixListAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-503
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetManagedPrefixListEntries
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-504
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetNetworkInsightsAccessScopeAnalysisFindings
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-505
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetNetworkInsightsAccessScopeContent
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-506
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetPaginator
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-507
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetPasswordData
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-508
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetReservedInstancesExchangeQuote
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-509
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetSecurityGroupsForVpc
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-510
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetSerialConsoleAccessStatus
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-511
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetSnapshotBlockPublicAccessState
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-512
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetSpotPlacementScores
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-513
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetSubnetCidrReservations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-514
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetTransitGatewayAttachmentPropagations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-515
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetTransitGatewayMulticastDomainAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-516
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetTransitGatewayPolicyTableAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-517
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetTransitGatewayPolicyTableEntries
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-518
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetTransitGatewayPrefixListReferences
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-519
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetTransitGatewayRouteTableAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-520
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetTransitGatewayRouteTablePropagations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-521
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetVerifiedAccessEndpointPolicy
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-522
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetVerifiedAccessGroupPolicy
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-523
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetVpnConnectionDeviceSampleConfiguration
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-524
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetVpnConnectionDeviceTypes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-525
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetVpnTunnelReplacementStatus
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-526
+  resource: aws.ec2
+- mode:
+    events:
+    - event: GetWaiter
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-527
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ImportClientVpnClientCertificateRevocationList
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-528
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ImportImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-529
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ImportInstance
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-530
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ImportKeyPair
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-531
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ImportSnapshot
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-532
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ImportVolume
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-533
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ListImagesInRecycleBin
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-534
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ListSnapshotsInRecycleBin
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-535
+  resource: aws.ec2
+- mode:
+    events:
+    - event: LockSnapshot
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-536
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyAddressAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-538
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyAvailabilityZoneGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-539
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyCapacityReservation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-540
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyCapacityReservationFleet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-541
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyClientVpnEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-542
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyDefaultCreditSpecification
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-543
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyEbsDefaultKmsKeyId
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-544
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyFleet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-545
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyFpgaImageAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-546
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyHosts
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-547
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyIdFormat
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-548
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyIdentityIdFormat
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-549
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyImageAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-550
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstanceAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-551
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstanceCapacityReservationAttributes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-552
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstanceCreditSpecification
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-553
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstanceEventStartTime
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-554
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstanceEventWindow
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-555
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstanceMaintenanceOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-556
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstanceMetadataOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-557
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyInstancePlacement
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-558
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyIpam
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-559
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyIpamPool
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-560
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyIpamResourceCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-561
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyIpamResourceDiscovery
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-562
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyIpamScope
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-563
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyLaunchTemplate
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-564
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyLocalGatewayRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-565
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyManagedPrefixList
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-566
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyNetworkInterfaceAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-567
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyPrivateDnsNameOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-568
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyReservedInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-569
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifySecurityGroupRules
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-570
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifySnapshotAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-571
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifySnapshotTier
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-572
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifySpotFleetRequest
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-573
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifySubnetAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-574
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyTrafficMirrorFilterNetworkServices
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-575
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyTrafficMirrorFilterRule
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-576
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyTrafficMirrorSession
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-577
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyTransitGateway
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-578
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyTransitGatewayPrefixListReference
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-579
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyTransitGatewayVpcAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-580
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVerifiedAccessEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-581
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVerifiedAccessEndpointPolicy
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-582
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVerifiedAccessGroup
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-583
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVerifiedAccessGroupPolicy
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-584
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVerifiedAccessInstance
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-585
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVerifiedAccessInstanceLoggingConfiguration
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-586
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVerifiedAccessTrustProvider
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-587
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVolume
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-588
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVolumeAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-589
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-590
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcEndpoint
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-591
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcEndpointConnectionNotification
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-592
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcEndpointServiceConfiguration
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-593
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcEndpointServicePayerResponsibility
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-594
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcEndpointServicePermissions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-595
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcPeeringConnectionOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-596
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpcTenancy
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-597
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpnConnection
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-598
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpnConnectionOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-599
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpnTunnelCertificate
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-600
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ModifyVpnTunnelOptions
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-601
+  resource: aws.ec2
+- mode:
+    events:
+    - event: MonitorInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-602
+  resource: aws.ec2
+- mode:
+    events:
+    - event: MoveAddressToVpc
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-603
+  resource: aws.ec2
+- mode:
+    events:
+    - event: MoveByoipCidrToIpam
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-604
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ProvisionByoipCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-605
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ProvisionIpamByoasn
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-606
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ProvisionIpamPoolCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-607
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ProvisionPublicIpv4PoolCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-608
+  resource: aws.ec2
+- mode:
+    events:
+    - event: PurchaseCapacityBlock
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-609
+  resource: aws.ec2
+- mode:
+    events:
+    - event: PurchaseHostReservation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-610
+  resource: aws.ec2
+- mode:
+    events:
+    - event: PurchaseReservedInstancesOffering
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-611
+  resource: aws.ec2
+- mode:
+    events:
+    - event: PurchaseScheduledInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-612
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RebootInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-613
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RegisterImage
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-614
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RegisterInstanceEventNotificationAttributes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-615
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RegisterTransitGatewayMulticastGroupMembers
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-616
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RegisterTransitGatewayMulticastGroupSources
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-617
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RejectTransitGatewayMulticastDomainAssociations
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-618
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RejectTransitGatewayPeeringAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-619
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RejectTransitGatewayVpcAttachment
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-620
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RejectVpcEndpointConnections
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-621
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RejectVpcPeeringConnection
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-622
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReleaseAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-623
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReleaseHosts
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-624
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReleaseIpamPoolAllocation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-625
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReplaceIamInstanceProfileAssociation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-626
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReplaceNetworkAclAssociation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-627
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReplaceNetworkAclEntry
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-628
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReplaceRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-629
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReplaceRouteTableAssociation
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-630
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReplaceTransitGatewayRoute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-631
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReplaceVpnTunnel
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-632
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ReportInstanceStatus
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-633
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RequestSpotFleet
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-634
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RequestSpotInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-635
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ResetAddressAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-636
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ResetEbsDefaultKmsKeyId
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-637
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ResetFpgaImageAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-638
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ResetImageAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-639
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ResetInstanceAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-640
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ResetNetworkInterfaceAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-641
+  resource: aws.ec2
+- mode:
+    events:
+    - event: ResetSnapshotAttribute
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-642
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RestoreAddressToClassic
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-643
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RestoreImageFromRecycleBin
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-644
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RestoreManagedPrefixListVersion
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-645
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RestoreSnapshotFromRecycleBin
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-646
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RestoreSnapshotTier
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-647
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RevokeClientVpnIngress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-648
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RevokeSecurityGroupEgress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-649
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RevokeSecurityGroupIngress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-650
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RunInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-651
+  resource: aws.ec2
+- mode:
+    events:
+    - event: RunScheduledInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-652
+  resource: aws.ec2
+- mode:
+    events:
+    - event: SearchLocalGatewayRoutes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-653
+  resource: aws.ec2
+- mode:
+    events:
+    - event: SearchTransitGatewayMulticastGroups
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-654
+  resource: aws.ec2
+- mode:
+    events:
+    - event: SearchTransitGatewayRoutes
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-655
+  resource: aws.ec2
+- mode:
+    events:
+    - event: SendDiagnosticInterrupt
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-656
+  resource: aws.ec2
+- mode:
+    events:
+    - event: StartInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-657
+  resource: aws.ec2
+- mode:
+    events:
+    - event: StartNetworkInsightsAccessScopeAnalysis
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-658
+  resource: aws.ec2
+- mode:
+    events:
+    - event: StartNetworkInsightsAnalysis
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-659
+  resource: aws.ec2
+- mode:
+    events:
+    - event: StartVpcEndpointServicePrivateDnsVerification
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-660
+  resource: aws.ec2
+- mode:
+    events:
+    - event: StopInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-661
+  resource: aws.ec2
+- mode:
+    events:
+    - event: TerminateClientVpnConnections
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-662
+  resource: aws.ec2
+- mode:
+    events:
+    - event: TerminateInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-663
+  resource: aws.ec2
+- mode:
+    events:
+    - event: UnassignIpv6Addresses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-664
+  resource: aws.ec2
+- mode:
+    events:
+    - event: UnassignPrivateIpAddresses
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-665
+  resource: aws.ec2
+- mode:
+    events:
+    - event: UnassignPrivateNatGatewayAddress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-666
+  resource: aws.ec2
+- mode:
+    events:
+    - event: UnlockSnapshot
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-667
+  resource: aws.ec2
+- mode:
+    events:
+    - event: UnmonitorInstances
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-668
+  resource: aws.ec2
+- mode:
+    events:
+    - event: UpdateSecurityGroupRuleDescriptionsEgress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-669
+  resource: aws.ec2
+- mode:
+    events:
+    - event: UpdateSecurityGroupRuleDescriptionsIngress
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-670
+  resource: aws.ec2
+- mode:
+    events:
+    - event: WaiterNames
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-671
+  resource: aws.ec2
+- mode:
+    events:
+    - event: WithdrawByoipCidr
+      ids: foo
+      source: ec2.amazonaws.com
+    type: cloudtrail
+  name: ec2-test-policy-672
+  resource: aws.ec2
+- mode:
+    events:
+    - event: AbortMultipartUpload
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-50
+  resource: aws.s3
+- mode:
+    events:
+    - event: CanPaginate
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-51
+  resource: aws.s3
+- mode:
+    events:
+    - event: CompleteMultipartUpload
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-53
+  resource: aws.s3
+- mode:
+    events:
+    - event: CopyObject
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-55
+  resource: aws.s3
+- mode:
+    events:
+    - event: CreateBucket
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-56
+  resource: aws.s3
+- mode:
+    events:
+    - event: CreateMultipartUpload
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-57
+  resource: aws.s3
+- mode:
+    events:
+    - event: CreateSession
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-58
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucket
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-59
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketAnalyticsConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-60
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketCors
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-61
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketEncryption
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-62
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketIntelligentTieringConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-63
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketInventoryConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-64
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketLifecycle
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-65
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketMetricsConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-66
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketOwnershipControls
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-67
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketPolicy
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-68
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketReplication
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-69
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketTagging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-70
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteBucketWebsite
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-71
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteObject
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-72
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteObjectTagging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-73
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeleteObjects
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-74
+  resource: aws.s3
+- mode:
+    events:
+    - event: DeletePublicAccessBlock
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-75
+  resource: aws.s3
+- mode:
+    events:
+    - event: DownloadFile
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-76
+  resource: aws.s3
+- mode:
+    events:
+    - event: DownloadFileobj
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-77
+  resource: aws.s3
+- mode:
+    events:
+    - event: GeneratePresignedPost
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-79
+  resource: aws.s3
+- mode:
+    events:
+    - event: GeneratePresignedUrl
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-80
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketAccelerateConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-81
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketAcl
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-82
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketAnalyticsConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-83
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketCors
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-84
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketEncryption
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-85
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketIntelligentTieringConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-86
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketInventoryConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-87
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketLifecycle
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-88
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketLifecycleConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-89
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketLocation
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-90
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketLogging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-91
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketMetricsConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-92
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketNotification
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-93
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketNotificationConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-94
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketOwnershipControls
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-95
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketPolicy
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-96
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketPolicyStatus
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-97
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketReplication
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-98
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketRequestPayment
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-99
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketTagging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-100
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketVersioning
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-101
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetBucketWebsite
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-102
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObject
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-103
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObjectAcl
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-104
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObjectAttributes
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-105
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObjectLegalHold
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-106
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObjectLockConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-107
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObjectRetention
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-108
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObjectTagging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-109
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetObjectTorrent
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-110
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetPaginator
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-111
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetPublicAccessBlock
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-112
+  resource: aws.s3
+- mode:
+    events:
+    - event: GetWaiter
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-113
+  resource: aws.s3
+- mode:
+    events:
+    - event: HeadBucket
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-114
+  resource: aws.s3
+- mode:
+    events:
+    - event: HeadObject
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-115
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListBucketAnalyticsConfigurations
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-116
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListBucketIntelligentTieringConfigurations
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-117
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListBucketInventoryConfigurations
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-118
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListBucketMetricsConfigurations
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-119
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListBuckets
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-120
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListDirectoryBuckets
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-121
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListMultipartUploads
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-122
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListObjectVersions
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-123
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListObjects
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-124
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListObjectsV2
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-125
+  resource: aws.s3
+- mode:
+    events:
+    - event: ListParts
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-126
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketAccelerateConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-128
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketAcl
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-129
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketAnalyticsConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-130
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketCors
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-131
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketEncryption
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-132
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketIntelligentTieringConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-133
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketInventoryConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-134
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketLifecycle
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-135
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketLifecycleConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-136
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketLogging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-137
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketMetricsConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-138
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketNotification
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-139
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketNotificationConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-140
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketOwnershipControls
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-141
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketPolicy
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-142
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketReplication
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-143
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketRequestPayment
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-144
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketTagging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-145
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketVersioning
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-146
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutBucketWebsite
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-147
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutObject
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-148
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutObjectAcl
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-149
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutObjectLegalHold
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-150
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutObjectLockConfiguration
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-151
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutObjectRetention
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-152
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutObjectTagging
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-153
+  resource: aws.s3
+- mode:
+    events:
+    - event: PutPublicAccessBlock
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-154
+  resource: aws.s3
+- mode:
+    events:
+    - event: RestoreObject
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-155
+  resource: aws.s3
+- mode:
+    events:
+    - event: SelectObjectContent
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-156
+  resource: aws.s3
+- mode:
+    events:
+    - event: UploadFile
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-157
+  resource: aws.s3
+- mode:
+    events:
+    - event: UploadFileobj
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-158
+  resource: aws.s3
+- mode:
+    events:
+    - event: UploadPart
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-159
+  resource: aws.s3
+- mode:
+    events:
+    - event: UploadPartCopy
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-160
+  resource: aws.s3
+- mode:
+    events:
+    - event: WaiterNames
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-161
+  resource: aws.s3
+- mode:
+    events:
+    - event: WriteGetObjectResponse
+      ids: foo
+      source: s3.amazonaws.com
+    type: cloudtrail
+  name: s3-test-policy-162
+  resource: aws.s3
