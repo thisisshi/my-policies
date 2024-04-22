@@ -4,8 +4,14 @@ policies:
     mode:
       type: cloudtrail
       events:
-        - event: CreateSecurityGroup
+        - event: AuthorizeSecurityGroupIngress
+          ids: requestParameters.groupId
+          source: ec2.amazonaws.com
+        - source: ec2.amazonaws.com
+          event: CreateSecurityGroup
           ids: responseElements.groupId
+        - event: RevokeSecurityGroupIngress
+          ids: "requestParameters.groupId"
           source: ec2.amazonaws.com
   - name: console-signin
     resource: aws.account
