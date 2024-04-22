@@ -1,4 +1,12 @@
 policies:
+  - name: create-sg
+    resource: aws.security-group
+    mode:
+      type: cloudtrail
+      events:
+        - event: CreateSecurityGroup
+          ids: responseElements.groupId
+          source: ec2.amazonaws.com
   - name: console-signin
     resource: aws.account
     mode:
