@@ -13,6 +13,43 @@ policies:
         - event: RevokeSecurityGroupIngress
           ids: "requestParameters.groupId"
           source: ec2.amazonaws.com
+    filters:
+    - type: ingress
+      Cidr:
+        op: not-in
+        value:
+          - 10.0.0.0/22
+      Ports:
+      - 22
+      - 443
+      - 3389
+    actions:
+    - type: set-permissions
+      remove-ingress: all
+    - type: set-permissions
+      add-ingress:
+      - IpPermissions:
+        - FromPort: 443
+          IpProtocol: TCP
+          IpRanges:
+            - CidrIp: 10.0.0.0/22
+              Description: test
+    - type: set-permissions
+      add-ingress:
+      - IpPermissions:
+        - FromPort: 3389
+          IpProtocol: TCP
+          IpRanges:
+            - CidrIp: 10.0.0.0/22
+              Description: test
+    - type: set-permissions
+      add-ingress:
+      - IpPermissions:
+        - FromPort: 22
+          IpProtocol: TCP
+          IpRanges:
+            - CidrIp: 10.0.0.0/22
+              Description: test
   - name: console-signin
     resource: aws.account
     mode:
