@@ -6405,5 +6405,5 @@ policies:
       ids: foo
       source: s3.amazonaws.com
     type: cloudtrail
-  name: s3-test-policy-162
+  name: s3-test-policy-162-really-really-really-really-really-really-really-really-really-really-really-really-really-really-really-really-really-really-really-long
   resource: aws.s3
